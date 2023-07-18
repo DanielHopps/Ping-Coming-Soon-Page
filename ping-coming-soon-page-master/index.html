@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img class="logo" src="images/logo.svg" alt="Company Logo" />
+        <h3><span>We are launching </span>soon!</h3>
+        <p>Subscribe and get notified</p>
+      </div>
+      <div class="sign-up">
+        <form action="#" onsubmit="return validateForm()">
+          <div class="email-input">
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your email address..."
+            />
+            <p class="hidden error-message">
+              Please provide a valid email address
+            </p>
+          </div>
+
+          <button type="submit">Notify Me</button>
+        </form>
+      </div>
+      <div class="main-illustration">
+        <img
+          src="images/illustration-dashboard.png"
+          alt="Illustrations of diagram charts"
+        />
+      </div>
+      <div class="socials">
+        <div class="social-links">
+          <ul>
+            <li>
+              <a href="#"
+                ><ion-icon id="facebook" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon id="twitter" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon id="instagram" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
